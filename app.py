@@ -46,7 +46,7 @@ with st.container():
     user_input = st.text_area("Share what's on your mind...", placeholder="e.g., I've been feeling quite overwhelmed lately.")
     analyze_btn = st.button("Analyze Sentiment", use_container_width=True)
 
-
+---
 
 # --- 3. LOGIC & VISUALIZATION ---
 if analyze_btn and user_input:
